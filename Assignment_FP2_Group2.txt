@@ -1,5 +1,5 @@
-1. Link Repo   =
-2. Link Deploy =
+1. Link Repo   = https://github.com/elxabrin/finalproject2
+2. Link Deploy = https://finalproject2-hazel.vercel.app/
 
 jobdesk 
 Section A = Indira Rahmawati (done)
