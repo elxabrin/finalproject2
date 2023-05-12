@@ -1,5 +1,6 @@
-final project 2 by group 2
-1. Elsa Dwi Sabrina
-2. Fawaz Asyar Mubarok
-3. Pramitha Dewi
-4. Indira Rahmawati
+Final Project 2 Group 2
+
+1. Elsa Dwi Sabrina        WDP-KS09-002
+2. Fawaz Asyar Mubarok     WDP-KS09-007
+3. Indira Rahmawati        WDP-KS09-005
+4. Pramitha Dewi           WDP-KS09-008 
