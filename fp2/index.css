@@ -1,357 +1,357 @@
 body {
-    background-color: #FFFFFF;
-  }
+  background-color: #FFFFFF;
+}
 
-  .container1{
-    width: 1200px;
-    height: 586px;
-    transform:translate(-1.5%, 5%);
-    background-color: #F2F6FF;
-    border-radius:60px;
-   }
-
-   .section {
-    text-align: center;
-    padding: 40px 25px;
-  }
-  
-  .section-light {
-    background-color: #f4f4f4;
-    color: #666;
-  }
-
-  .container1 h3 {
-    position: absolute;
-    left: 7.27%;
-    right: 65.45%;
-    top: 17.68%;
-    bottom: 54.83%;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-
-    color: #234CAD;
-  }
-
-  .container1 p {
-    position: absolute;
-    left: 7.27%;
-    right: 70.62%;
-    top: 49.26%;
-    bottom: 42.23%;
-    
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
-    
-    color: #234CAD;
-  }
-
-.container1 p a {
-  position: absolute;
-  padding: 8px 30px;
+.container1{
+  width: 1200px;
+  height: 586px;
+  transform:translate(-1.5%, 5%);
   background-color: #F2F6FF;
-  margin-top: 80px;
-  color: #234CAD;
+  border-radius:60px;
+ }
 
-  border: 1px solid #234CAD;
-  border-radius: 32.5px;
+ .section {
+  text-align: center;
+  padding: 40px 25px;
 }
 
-.container2 {
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.container1 h3 {
   position: absolute;
-  width: 760px;
-  height: 550px;
-  left: 585px;
-  top: 150px;
-}
-
-.row1 {
-  width: 75px;
-  height: 75px;
-  left: 575px;
-  top: 36px;
-  background: #FFFFFF;
-  border-radius: 20px;
-}
-
-.row1 img {
-  position: absolute;
-  width: 24px;
-  height: 30px;
-  left: 25px;
-  top: 22px;
-}
-
-.border1 {
-  --b: 2px;  /* border width*/
-
-  color: #313149;
-  display: inline-block;
-  width: 65px;
-  height: 65px;
-  margin-top: 20px;
-  margin-left: 30px;
-  position: relative;
-  z-index: 0;
-}
-
-.border1:before {
-  content:"";
-  position:absolute;
-  z-index:-1;
-  inset: 0;
-  background: var(--c,linear-gradient(to right, #9c20aa, #fb3570));
-  padding: var(--b);
-  border-radius: 50%;
-  -webkit-mask: 
-     linear-gradient(#fff 0 0) content-box, 
-     linear-gradient(#fff 0 0);
-          mask: 
-     linear-gradient(#fff 0 0) content-box, 
-     linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
-}
-
-.icon1{
-  width: 53px; 
-  height: 53px; 
-  margin-top: 6px;
-  margin-left: 6px;
-  background-color: #F2F6FF;
-}
-
-.icon1 img {
-  margin-top: 17px;
-  margin-left: 13px;
-}
-
-.card-textUp{
+  left: 7.27%;
+  right: 65.45%;
+  top: 17.68%;
+  bottom: 54.83%;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 48px;
+  line-height: 56px;
+
   color: #234CAD;
 }
 
-.card-textLow{
+.container1 p {
+  position: absolute;
+  left: 7.27%;
+  right: 70.62%;
+  top: 49.26%;
+  bottom: 42.23%;
+  
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 0px;
-  color: #234CAD; 
+  font-size: 15px;
+  line-height: 26px;
+  
+  color: #234CAD;
+}
+
+.container1 p a {
+position: absolute;
+padding: 8px 30px;
+background-color: #F2F6FF;
+margin-top: 80px;
+color: #234CAD;
+
+border: 1px solid #234CAD;
+border-radius: 32.5px;
+}
+
+.container2 {
+position: absolute;
+width: 760px;
+height: 550px;
+left: 585px;
+top: 150px;
+}
+
+.row1 {
+width: 75px;
+height: 75px;
+left: 575px;
+top: 36px;
+background: #FFFFFF;
+border-radius: 20px;
+}
+
+.row1 img {
+position: absolute;
+width: 24px;
+height: 30px;
+left: 25px;
+top: 22px;
+}
+
+.border1 {
+--b: 2px;  /* border width*/
+
+color: #313149;
+display: inline-block;
+width: 65px;
+height: 65px;
+margin-top: 20px;
+margin-left: 30px;
+position: relative;
+z-index: 0;
+}
+
+.border1:before {
+content:"";
+position:absolute;
+z-index:-1;
+inset: 0;
+background: var(--c,linear-gradient(to right, #9c20aa, #fb3570));
+padding: var(--b);
+border-radius: 50%;
+-webkit-mask: 
+   linear-gradient(#fff 0 0) content-box, 
+   linear-gradient(#fff 0 0);
+        mask: 
+   linear-gradient(#fff 0 0) content-box, 
+   linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+        mask-composite: exclude;
+}
+
+.icon1{
+width: 53px; 
+height: 53px; 
+margin-top: 6px;
+margin-left: 6px;
+background-color: #F2F6FF;
+}
+
+.icon1 img {
+margin-top: 17px;
+margin-left: 13px;
+}
+
+.card-textUp{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 25px;
+color: #234CAD;
+}
+
+.card-textLow{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 0px;
+color: #234CAD; 
 }
 
 .row3 {
-  position: absolute;
-  width: 130px;
-  height: 160px;
-  left: 400px;
-  top: 40px;
-  background: #FFFFFF;
-  border-radius: 20px;
+position: absolute;
+width: 130px;
+height: 160px;
+left: 400px;
+top: 40px;
+background: #FFFFFF;
+border-radius: 20px;
 }
 
 .border2 {
-  --b: 2px;  /* border width*/
+--b: 2px;  /* border width*/
 
-  color: #313149;
-  display: inline-block;
-  width: 78px;
-  height: 78px;
-  margin-top: 30px;
-  margin-left: 30px;
-  position: relative;
-  z-index: 0;
+color: #313149;
+display: inline-block;
+width: 78px;
+height: 78px;
+margin-top: 30px;
+margin-left: 30px;
+position: relative;
+z-index: 0;
 }
 
 .border2:before {
-  content:"";
-  position:absolute;
-  z-index:-1;
-  inset: 0;
-  background: var(--c,linear-gradient(to right, #9c20aa, #fb3570));
-  padding: var(--b);
-  border-radius: 50%;
-  -webkit-mask: 
-     linear-gradient(#fff 0 0) content-box, 
-     linear-gradient(#fff 0 0);
-          mask: 
-     linear-gradient(#fff 0 0) content-box, 
-     linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
+content:"";
+position:absolute;
+z-index:-1;
+inset: 0;
+background: var(--c,linear-gradient(to right, #9c20aa, #fb3570));
+padding: var(--b);
+border-radius: 50%;
+-webkit-mask: 
+   linear-gradient(#fff 0 0) content-box, 
+   linear-gradient(#fff 0 0);
+        mask: 
+   linear-gradient(#fff 0 0) content-box, 
+   linear-gradient(#fff 0 0);
+-webkit-mask-composite: xor;
+        mask-composite: exclude;
 }
 
 .icon2{
-  width: 65px; 
-  height: 65px; 
-  margin-top: 7px;
-  margin-left: 7px;
-  background-color: #F2F6FF;
+width: 65px; 
+height: 65px; 
+margin-top: 7px;
+margin-left: 7px;
+background-color: #F2F6FF;
 }
 
 .icon2 img {
-  margin-top: 23px;
-  margin-left: 20px;
+margin-top: 23px;
+margin-left: 20px;
 }
 
 .icon3{
-  width: 65px; 
-  height: 65px; 
-  margin-top: 16px;
-  margin-left: 30px;
-  background-color: #F2F6FF;
-  border: 2px outset #234CAD;
+width: 65px; 
+height: 65px; 
+margin-top: 16px;
+margin-left: 30px;
+background-color: #F2F6FF;
+border: 2px outset #234CAD;
 }
 
 .icon3 img {
-  margin-top: 20px;
-  margin-left: 19px;
+margin-top: 20px;
+margin-left: 19px;
 }
 
 .pagination{
-  margin-top: 12px;
-  margin-left: 50px;
+margin-top: 12px;
+margin-left: 50px;
 }
 
 .pagination>li>a, .pagination>li>span { 
-  border-radius: 50% !important;
-  margin-left: 2px;
-  background-color: #F2F6FF;
-  font-size: 13px;
-  color: #234CAD;
+border-radius: 50% !important;
+margin-left: 2px;
+background-color: #F2F6FF;
+font-size: 13px;
+color: #234CAD;
 }
 
 .icon4{
-  width: 65px; 
-  height: 65px; 
-  margin-top: 16px;
-  margin-left: 30px;
-  background-color: #F2F6FF;
+width: 65px; 
+height: 65px; 
+margin-top: 16px;
+margin-left: 30px;
+background-color: #F2F6FF;
 }
 
 .icon4 p {
-  color: #234CAD;
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: 23px;
-  margin-left: 20px;
+color: #234CAD;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+margin-top: 23px;
+margin-left: 20px;
 }
 
 .notify-badge1{
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 65px;
-  top: 18px;
-  background: #234CAD;
-  text-align: center;
-  border-radius: 50px;
-  color:white;
-  font-size:10px;
+position: absolute;
+width: 15px;
+height: 15px;
+left: 65px;
+top: 18px;
+background: #234CAD;
+text-align: center;
+border-radius: 50px;
+color:white;
+font-size:10px;
 }
 
 .icon5{
-  width: 65px; 
-  height: 65px; 
-  margin-top: 16px;
-  margin-left: 30px;
-  background-color: #F2F6FF;
+width: 65px; 
+height: 65px; 
+margin-top: 16px;
+margin-left: 30px;
+background-color: #F2F6FF;
 }
 
 .icon5 p {
-  color: #234CAD;
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: 21px;
-  margin-left: 22px;
+color: #234CAD;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+margin-top: 21px;
+margin-left: 22px;
 }
 
 .notify-badge2{
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 65px;
-  top: 18px;
-  background: #234CAD;
-  text-align: center;
-  border-radius: 50px;
-  color:white;
-  font-size:10px;
+position: absolute;
+width: 15px;
+height: 15px;
+left: 65px;
+top: 18px;
+background: #234CAD;
+text-align: center;
+border-radius: 50px;
+color:white;
+font-size:10px;
 }
 
 .icon6{
-  width: 65px; 
-  height: 65px; 
-  margin-top: 16px;
-  margin-left: 30px;
-  background-color: #F2F6FF;
+width: 65px; 
+height: 65px; 
+margin-top: 16px;
+margin-left: 30px;
+background-color: #F2F6FF;
 }
 
 .icon6 img {
-  margin-top: 23px;
-  margin-left: 23px;
+margin-top: 23px;
+margin-left: 23px;
 }
 
 .row4 {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  left: 375px;
-  top: 482px;
-  background: #FFFFFF;
-  border-radius: 20px;
+position: absolute;
+width: 75px;
+height: 75px;
+left: 375px;
+top: 482px;
+background: #FFFFFF;
+border-radius: 20px;
 }
 .row4 img {
-  position: absolute;
-  width: 32px;
-  height: 30px;
-  left: 22px;
-  top: 22px;
+position: absolute;
+width: 32px;
+height: 30px;
+left: 22px;
+top: 22px;
 }
 
 .container3 {
-  position: absolute;
-  height: 130px;
-  left: 70px;
+position: absolute;
+height: 130px;
+left: 70px;
 }
 
 .icon7{
-  width: 80px; 
-  height: 80px; 
-  margin-top: 16px;
-  margin-left: 30px;
-  background-color: #F2F6FF;
+width: 80px; 
+height: 80px; 
+margin-top: 16px;
+margin-left: 30px;
+background-color: #F2F6FF;
 }
 
 .icon7 img {
-  margin-top: 19px;
-  margin-left: 15px;
+margin-top: 19px;
+margin-left: 15px;
 }
 
 .icon8{
-  width: 80px; 
-  height: 80px; 
-  margin-top: 10px;
-  margin-left: 30px;
-  background-color: #F2F6FF;
+width: 80px; 
+height: 80px; 
+margin-top: 10px;
+margin-left: 30px;
+background-color: #F2F6FF;
 }
 
 .icon8 img {
-  margin-top: 15px;
-  margin-left: 23px;
+margin-top: 15px;
+margin-left: 23px;
 }
